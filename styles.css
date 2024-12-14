@@ -1,0 +1,49 @@
+   body {
+       background: url('Images/bkgrnd.jpg') no-repeat center center fixed;
+       background-size: contain;
+       text-align: center;
+       font-family: 'Arial', sans-serif;
+   }
+
+   .container {
+       margin-top: 50px;
+   }
+
+   .tree {
+       width: 200px;
+       height: 300px;
+       background-size: cover;
+       position: relative;
+       margin: 0 auto;
+   }
+
+   .present {
+       width: 100px;
+       height: 100px;
+       background: url('Images/Present.webp') no-repeat center;
+       background-size: cover;
+       position: absolute;
+       bottom: -750px;
+       left: 120%;
+       transform: translateX(-50%);
+       cursor: pointer;
+       transition: background 0.3s;
+   }
+
+   .present.opened {
+       background: url('Images/PM.jpg') no-repeat center;
+       background-size: cover;
+   }
+
+   .hidden {
+       display: none;
+   }
+
+   h1 {
+       font-size: 2.5em;
+       font-weight: bold;
+       color: #ffcc00;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+       margin-bottom: 20px;
+   }
+
