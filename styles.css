@@ -23,7 +23,7 @@ body {
     background: url('Images/Present.webp') no-repeat center;
     background-size: cover;
     position: absolute;
-    bottom: -750px;
+    bottom: -650px;
     left: 120%;
     transform: translateX(-50%);
     cursor: pointer;
